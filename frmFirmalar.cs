@@ -194,12 +194,12 @@ namespace TicariOtomasyonProje
                 msktxtTelefon2.Text = dr["TELEFON2"].ToString();
                 msktxtTelefon3.Text = dr["TELEFON3"].ToString();
 
-                txtMail.Text = dr["Mail"].ToString();
+                txtMail.Text = dr["MAIL"].ToString();
                 msktxtFax.Text = dr["Fax"].ToString();
                 CmbIl.Text = dr["Il"].ToString();
                 cmbIlce.Text = dr["Ilce"].ToString();
 
-                txtVergidaire.Text = dr["VERGiDAIRE"].ToString();
+                txtVergidaire.Text = dr["VERGIDAIRE"].ToString();
                 rchAdres.Text = dr["Adres"].ToString();
                 txtKod1.Text = dr["Ozelkod1"].ToString();
                 txtKod2.Text = dr["Ozelkod2"].ToString();

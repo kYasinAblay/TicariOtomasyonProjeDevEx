@@ -73,11 +73,11 @@ namespace TicariOtomasyonProje
             {
                 txtId.Text = dr["Id"].ToString();
                 cmbAylar.Text = dr["AY"].ToString();
-                cmbYil.Text = dr["Yil"].ToString();
-                txtElektrik.Text = dr["Elektrik"].ToString();
+                cmbYil.Text = dr["YIL"].ToString();
+                txtElektrik.Text = dr["ELEKTRIK"].ToString();
                 txtSu.Text = dr["Su"].ToString();
                 txtDogalgaz.Text = dr["Dogalgaz"].ToString();
-                txtInternet.Text = dr["internet"].ToString();
+                txtInternet.Text = dr["INTERNET"].ToString();
                 txtMaaslar.Text = dr["maaslar"].ToString();
                 txtEkstra.Text = dr["ekstra"].ToString();
                 rchNotlar.Text = dr["notlar"].ToString();

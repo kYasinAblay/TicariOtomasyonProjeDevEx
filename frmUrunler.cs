@@ -80,8 +80,8 @@ namespace TicariOtomasyonProje
             txtModel.Text= dr["MODEL"].ToString();
             msktxtYil.Text= dr["YIL"].ToString();
             nudAdet.Value= int.Parse(dr["ADET"].ToString());
-            txtAlisFiyat.Text= dr["alisfiyat"].ToString();
-            txtSatisFiyat.Text= dr["satisfiyat"].ToString();
+            txtAlisFiyat.Text= dr["ALISFIYAT"].ToString();
+            txtSatisFiyat.Text= dr["SATISFIYAT"].ToString();
             rchDetay.Text= dr["DETAY"].ToString();
 
         }

@@ -171,15 +171,15 @@ namespace TicariOtomasyonProje
             DataRow dr = gridView1.GetDataRow(gridView1.FocusedRowHandle);
             if (dr != null)
             {
-                txtId.Text = dr["faturabilgiID"].ToString();
-                txtSirano.Text = dr["sirano"].ToString();
-                txtSeri.Text = dr["seri"].ToString();
-                msktxtTarih.Text = dr["tarih"].ToString();
+                txtId.Text = dr["faturaBILGIID"].ToString();
+                txtSirano.Text = dr["SIRANO"].ToString();
+                txtSeri.Text = dr["SERI"].ToString();
+                msktxtTarih.Text = dr["TARIH"].ToString();
                 msktxtSaat.Text = dr["saat"].ToString();
-                txtAlici.Text = dr["alici"].ToString();
-                txtTeslimEden.Text = dr["teslimeden"].ToString();
-                txtTeslimAlan.Text = dr["teslimalan"].ToString();
-                txtVergiDaire.Text = dr["vergidaire"].ToString();
+                txtAlici.Text = dr["ALICI"].ToString();
+                txtTeslimEden.Text = dr["TESLIMEDEN"].ToString();
+                txtTeslimAlan.Text = dr["TESLIMALAN"].ToString();
+                txtVergiDaire.Text = dr["VERGIDAIRE"].ToString();
             }
         }
 

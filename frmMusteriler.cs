@@ -142,10 +142,10 @@ namespace TicariOtomasyonProje
                 msktxtTelefon1.Text = dr["Telefon"].ToString();
                 msktxtTelefon2.Text = dr["Telefon2"].ToString();
                 msktxtTc.Text = dr["TC"].ToString();
-                txtMail.Text = dr["Mail"].ToString();
+                txtMail.Text = dr["MAIL"].ToString();
                 cmbIl.Text = dr["Il"].ToString();
                 cmbIlce.Text = dr["Ilce"].ToString();
-                txtVergidaire.Text = dr["VergiDaire"].ToString();
+                txtVergidaire.Text = dr["VERGIDAIRE"].ToString();
                 rchAdres.Text = dr["Adres"].ToString();
 
             }

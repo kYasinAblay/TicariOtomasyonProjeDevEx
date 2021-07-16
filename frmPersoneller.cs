@@ -90,7 +90,7 @@ namespace TicariOtomasyonProje
                 txtSoyad.Text = dr["Soyad"].ToString();
                 msktxtTelefon1.Text = dr["Telefon"].ToString();
                 msktxtTc.Text = dr["TC"].ToString();
-                txtMail.Text = dr["Mail"].ToString();
+                txtMail.Text = dr["MAIL"].ToString();
                 cmbIl.Text = dr["Il"].ToString();
                 cmbIlce.Text = dr["Ilce"].ToString();
                 rchAdres.Text = dr["Adres"].ToString();

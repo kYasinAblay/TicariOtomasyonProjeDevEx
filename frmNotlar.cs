@@ -65,11 +65,11 @@ namespace TicariOtomasyonProje
             if (dr != null)
             {
                 txtId.Text = dr["ID"].ToString();
-                txtBaslik.Text = dr["Baslik"].ToString();
+                txtBaslik.Text = dr["BASLIK"].ToString();
                 rchDetay.Text = dr["Detay"].ToString();
                 txtOlusturan.Text = dr["Olusturan"].ToString();
-                txtHitap.Text = dr["Hitap"].ToString();
-                msktxtTarih.Text = dr["Tarih"].ToString();
+                txtHitap.Text = dr["HITAP"].ToString();
+                msktxtTarih.Text = dr["TARIH"].ToString();
                 msktxtSaat.Text = dr["Saat"].ToString();
             }
         }

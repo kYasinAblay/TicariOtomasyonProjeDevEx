@@ -125,15 +125,15 @@ namespace TicariOtomasyonProje
             if (dr!=null)
             {
                 txtId.Text = dr["ID"].ToString();
-                txtBankaAdi.Text = dr["Bankaadi"].ToString();
+                txtBankaAdi.Text = dr["BANKAADI"].ToString();
                 cmbIl.Text = dr["Il"].ToString();
-                cmbIlce.Text = dr["ilce"].ToString();
+                cmbIlce.Text = dr["ILCE"].ToString();
                 txtSube.Text = dr["sube"].ToString();
                 msktxtIban.Text = dr["IBAN"].ToString();
                 txtHesapno.Text = dr["hesapno"].ToString();
-                txtYetkili.Text = dr["Yetkili"].ToString();
+                txtYetkili.Text = dr["YETKILI"].ToString();
                 msktxtTelefon.Text = dr["telefon"].ToString();
-                msktxtTarih.Text = dr["tarih"].ToString();
+                msktxtTarih.Text = dr["TARIH"].ToString();
                 txtHesapTuru.Text = dr["hesapturu"].ToString();
 
             }
